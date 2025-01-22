@@ -16,5 +16,3 @@ e sucesso das alunas e na generation dev{as} estamos em um local seguro e acolhe
 >[!IMPORTANT]
 > Todo conteúdo teórico das aulas está no meu [Notion](https://www.notion.so/Generation-17ba8a4d7064807e8ea3c18bb6601732?pvs=4),<br>
 >fique a vontade para explorar.
-
-![Image](https://github.com/user-attachments/assets/eda69555-0911-419f-96e6-3020e968e6eb)
