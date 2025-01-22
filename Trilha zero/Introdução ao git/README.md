@@ -1,11 +1,11 @@
 # Introdução Git
 
-***:dizzy:Esse conteúdo abarca os meus estudos do curso da generation Brasil, módulo de introdução ao Git/Github***
+***:dizzy:Esse conteúdo abarca os meus estudos sobre introdução ao Git/Github***
 
 ### Aulas de git -> criando um repositório:
 
 - [x] primeiros passos para criar um repositório local
-- [x] criar um repositório remoto e integrá-lo com o remoto
+- [x] criar um repositório remoto e integrá-lo ao local
 - [x] dar push e pull
 - [x] criar branchs e navegar por elas
 - [x] enviar branchs para o repositório remoto
