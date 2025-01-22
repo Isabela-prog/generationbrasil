@@ -1,5 +1,5 @@
 # Curso Generation Brasil, Devas 80
-![Image](https://github.com/user-attachments/assets/6a5432e5-ed8c-4422-aef2-cdfcaf29d7bf)
+![Image](https://github.com/user-attachments/assets/53c163f5-b831-4e58-b3ec-3b8d279e2073)
 
 ***:dizzy:Esse é um repositório com os conteúdos do curso Java fullstack Devas.<br> Aqui terá conteúdo de lógica de programação, git e github, back-end e front-end.***
 
