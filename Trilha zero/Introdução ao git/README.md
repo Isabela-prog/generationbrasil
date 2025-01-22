@@ -1,6 +1,6 @@
 # Introdução Git
 
-***:dizzy:Esse conteúdo abarca os meus estudos do curso da generation Brasil, módulo de introdução ao Git/Github***
+***:dizzy:Esse conteúdo abarca os meus estudos sobre introdução ao Git/Github***
 
 ### Aulas de git -> criando um repositório:
 
