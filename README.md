@@ -5,7 +5,7 @@ Aqui terá conteúdo de lógica de programação, git e github, back-end e front
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/81843f41-004f-420a-b344-19c1ab231eb3"/>
-</div><br><br>
+</div><br>
 
 ### Considerações sobre o curso:
 Além de possuir um conteúdo bem didático, interativo e enriquecedor, a possibilidade de estar<br>
@@ -16,3 +16,5 @@ e sucesso das alunas e na generation dev{as} estamos em um local seguro e acolhe
 >[!IMPORTANT]
 > Todo conteúdo teórico das aulas está no meu [Notion](https://www.notion.so/Generation-17ba8a4d7064807e8ea3c18bb6601732?pvs=4),<br>
 >fique a vontade para explorar.
+
+![Image](https://github.com/user-attachments/assets/eda69555-0911-419f-96e6-3020e968e6eb)
