@@ -1,0 +1,14 @@
+package projeto01.cookbook3;
+
+public class Variaveis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//inteiro numero
+		int numero = 5;
+		System.out.println(numero);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package exercicio01;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Scanner permite a leitura do valor inserido pelo usuário
+		Scanner leia = new Scanner(System.in);
+		System.out.println("Olá, para começarmos, poderia me informar o seu nome? ");
+		
+		
+
+}

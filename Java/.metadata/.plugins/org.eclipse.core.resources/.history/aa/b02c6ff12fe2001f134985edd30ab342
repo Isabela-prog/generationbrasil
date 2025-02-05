@@ -1,0 +1,17 @@
+package projeto01.cookbook4;
+
+public class EntradaESaida {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//println() exibi na tela e quebra uma linha
+		//print() exibi na tela
+		//printf() exibi texto e variável separados por vírgula
+		
+		float altura = 1.59f;
+		System.out.printf("Isabela tem %2f de altura", altura);
+
+	}
+
+}

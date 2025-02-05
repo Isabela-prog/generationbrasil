@@ -1,0 +1,25 @@
+package lacos_condicionais.condicionalIf;
+
+import java.util.Scanner;
+
+public class ExemploIf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//validar um número digitado pelo usuário
+		//se for maior que 10, escrever "numerão" no console
+		int numero;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite um número");
+		numero = scanner.nextInt();
+		
+		//laço condicional
+		if (numero > 10) {
+			System.out.println("maior numerão");
+		}
+	
+	}
+
+}

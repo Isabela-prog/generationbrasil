@@ -1,0 +1,68 @@
+package exercicioSwitchCase1;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		// declarando variáveis
+		int n1, preco = 0, quantia, total;
+		
+		// criando o scanner
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		// montando menu
+		System.out.println("1 - Cachorro quente");
+		System.out.println("2 - X-Salada");
+		System.out.println("3 - X-Bacon");
+		System.out.println("4 - Bauru");
+		System.out.println("5 - Refrigerante");
+		System.out.println("6 - Suco de laranja");
+		
+		// pedidndo e capturando entrada do menu
+		System.out.println("Digite o número do item que você deseja comprar: ");
+		n1 = scanner.nextInt();
+		scanner.nextLine();
+		
+		// pedidndo e capturando qauntia de itens
+		System.out.println("Digite o número da quantidade desse produto: ");
+		quantia = scanner.nextInt();
+		scanner.nextLine();
+		
+		// Criando switch que receberá os preços
+		switch(n1){
+			case 1: 
+				preco = 10;
+				break;
+			case 2:
+				preco = 15;
+				break;
+			case 3:
+				preco = 18;
+				break;
+			case 4:
+				preco = 12;
+				break;
+			case 5:
+				preco = 8;
+				break;
+			case 6:
+				preco = 13;
+				break;
+			default:
+				System.out.println("Entre com uma opção válida de pedido. Obrigada");
+		}
+		
+		// tratar entrada que for 0 na quantia
+		if(quantia != 0) {
+			total = preco * quantia;
+		}else {
+			total = preco;
+		}
+		
+		System.out.println("Prontinho, seu pedido ficou no valor de: " + total);
+
+	}
+
+}

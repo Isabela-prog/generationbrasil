@@ -1,0 +1,43 @@
+package exerciciosLacosRepeticao;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		// Declarando variáveis
+		int n1, n2, i;
+		
+		// Iniciando o scanner
+		Scanner scanner = new Scanner(System.in);
+		
+		//Pedindo e capturando entradas
+		System.out.println("Digite o primeiro número do intervalo: ");
+		n1 = scanner.nextInt();
+		scanner.nextLine();
+		System.out.println("Digite o último número do intervalo: ");
+		n2 = scanner.nextInt();
+		
+		i = n2 - n1;
+		
+		// tratar entrada em que o n2 for menor que o n1
+		if(n1 > n2) {
+			System.out.println("O primeiro número deve ser menor do que o último, digite novamente");
+			System.out.println("Digite o primeiro número do intervalo: ");
+			n1 = scanner.nextInt();
+			scanner.nextLine();
+			System.out.println("Digite o último número do intervalo: ");
+			n2 = scanner.nextInt();		
+		}else {
+			//i será a quantidade de números no intervalo, logo último número - primeiro
+			//i = n2 - n1;
+		}
+		
+		// inciando o loop
+		for(i; i =< n2; i++) {
+			
+		}
+		
+	}
+
+}

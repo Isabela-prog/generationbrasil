@@ -1,0 +1,32 @@
+package projeto01.cookbook3;
+
+public class Variaveis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//inteiro numero
+		int numero = 5;
+		System.out.println(numero);
+		
+		//maior precisão
+		//pesa mais no sitema
+		double valor = 150.52;
+		System.out.println(valor);
+		
+		//menor precisão
+		//não é tão bom depois de 5 casas depois da vírgula
+		float altura = 1.59f;
+		System.out.println(altura);
+		
+		//caracter
+		char letra = 'a';
+		
+		//cadeia
+		String nome = "Isabela";
+		String sobrenome = "Santos";
+		System.out.println("Bom dia, " + nome + " " + sobrenome);
+
+	}
+
+}

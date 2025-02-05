@@ -1,0 +1,22 @@
+package exerciciosLacosRepeticao;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+	public static void main(String[] args) {
+		
+		int n, sum;
+		Scanner scanner = new Scanner(System.in);
+		
+		do {
+			System.out.println("digite um inteiro ou zero para sair: ");
+			n = scanner.nextInt();
+			
+			if(n > 0) {
+				sum = n++;
+				System.out.println("n: " + n);
+				System.out.println("Sum: " + sum);
+			}
+		}while(n == 0);
+	}
+}

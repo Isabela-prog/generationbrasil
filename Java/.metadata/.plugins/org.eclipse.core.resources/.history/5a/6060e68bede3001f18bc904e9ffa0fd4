@@ -1,0 +1,50 @@
+package exerciciosLacosRepeticao;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		// Declarando variáveis
+		int n1, n2, i, intervalo;
+		
+		// Iniciando o scanner
+		Scanner scanner = new Scanner(System.in);
+		
+		//Pedindo e capturando entradas
+		System.out.println("Digite o primeiro número do intervalo: ");
+		n1 = scanner.nextInt();
+		scanner.nextLine();
+		System.out.println("Digite o último número do intervalo: ");
+		n2 = scanner.nextInt();
+		
+		// tratar entrada em que o n2 for menor que o n1
+		if(n1 > n2) {
+			System.out.println("O primeiro número deve ser menor do que o último, digite novamente");
+			System.out.println("Digite o primeiro número do intervalo: ");
+			n1 = scanner.nextInt();
+			scanner.nextLine();
+			System.out.println("Digite o último número do intervalo: ");
+			n2 = scanner.nextInt();		
+		}
+		
+		intervalo = n2 - n1;
+		// inciando o loop
+		// a repetição tem que ser a quantidade de números que existe no intervalo
+		for(i = 0; i <= intervalo; i++) {
+			if((n1 % 3 == 0) && (n1 % 5 == 0)) {
+				System.out.println(n1 + " é múltiplo de 3 e 5");
+				System.out.println(i);
+				System.out.println("========================");
+				n1++;
+			}else {
+				n1++;
+				System.out.println(n1 + " não é múltiplo");
+				System.out.println(i);
+			}
+
+		}
+		
+	}
+
+}

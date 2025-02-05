@@ -1,0 +1,27 @@
+package projeto01.cookbook4;
+
+import java.util.Scanner;
+
+public class Entradas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//permitir que o usuário informe algo para o sistema
+		
+		Scanner leia = new Scanner(System.in);
+		System.out.println("Digite seu nome: ");
+		String nome;
+		nome = leia.nextLine();
+		System.out.println("olá, " + nome);
+		
+		//Receber idade
+		
+		System.out.println("Digite sua idade: ");
+		int idade;
+		idade = leia.nextInt();
+		System.out.println("você tem " + idade + " anos");
+
+	}
+
+}

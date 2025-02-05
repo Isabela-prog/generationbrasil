@@ -1,0 +1,21 @@
+package lacos_condicionais.condicionalIfElse;
+
+public class ExemploIfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//validar a media de um aluno
+		//maior que 6 => aprovado
+		//senão => reprovado
+		
+		float media = 7f;
+		
+		if(media > 6) {
+			System.out.println("Aprovado");
+		}else {
+			System.out.println("Reprovado");
+		}
+	}
+
+}

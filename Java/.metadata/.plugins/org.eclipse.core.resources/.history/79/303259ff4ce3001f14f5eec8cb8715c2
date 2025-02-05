@@ -1,0 +1,48 @@
+package exercicioLacosCondicionais1;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		// Declarando variáveis
+		int n1;
+		int n2;
+		int n3;
+		
+		// Criando o Scanner
+		Scanner scanner = new Scanner(System.in);
+		Scanner scanner2 = new Scanner(System.in);
+		
+		// Pedir entrada pro usuário e capturar
+		System.out.println("Entre com o primeiro número: ");
+		n1 = scanner.nextInt();
+		scanner.nextLine();
+		
+		System.out.println("Entre com o segundo número: ");
+		n2 = scanner.nextInt();
+		scanner.nextLine();
+		
+		System.out.println("Entre com o terceiro número: ");
+		n3 = scanner.nextInt();
+		
+		
+		if(!(scanner2.hasNextInt(n1) || scanner2.hasNextInt(n2) || scanner2.hasNextInt(n3))) {
+			System.out.println("Volte e digite um número válido!");
+		}
+		// Se não for um inteiro ou se não for um número -> voltar
+		
+		/*try {	
+			scanner2.hasNextInt(n1); 
+				
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+		
+		
+
+	}
+
+}
