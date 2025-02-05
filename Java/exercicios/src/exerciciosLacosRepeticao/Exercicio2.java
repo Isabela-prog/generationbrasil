@@ -27,6 +27,7 @@ public class Exercicio2 {
 				contador2++;
 			}
 			
+			//pedir o escape depois para tratar o caso de a pessoa digitar uma criança menor de um ano
 			System.out.println("Digite 0 para sair ou qualquer número para digitar mais idades: ");
 			escape = scanner.nextInt();
 			
