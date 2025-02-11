@@ -1,0 +1,35 @@
+package matrizes;
+
+public class MatrizesSimples {
+	public static void main(String[] args) {
+		int matriz[][] = {
+				{15,20},
+				{70,80},
+				};
+		
+		/*
+		 * indice	00 01
+		 * 			15 20
+		 * indice	10 11
+		 * 			70 80
+		 */
+		
+		System.out.println(matriz[1][1]);
+		
+		String nomes[][] = new String[2][2];
+		nomes[0][0] = "Rita";
+		nomes[0][1] = "Márcia";
+		nomes[1][0] = "Geovana";
+		nomes[1][1] = "Gustavo";
+		
+		for(int l = 0; l < 2; l++) {
+			//System.out.println(l);
+			for(int c = 0; c < 2; c++) {
+				System.out.println("liha: " + l + " Coluna: " + c + " -> " + nomes[l][c]);
+			}
+			
+		}
+		
+		
+	}
+}

@@ -1,0 +1,19 @@
+package colecoesDeDadosListas;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Lista4 {
+	public static void main(String[] args) {
+		Set<String> nomes = new HashSet<String>();
+		
+		nomes.add("Gaby");
+		nomes.add("Jessica");
+		nomes.add("Mina");
+		nomes.add("Mayte");
+		nomes.add("Isa");
+		
+		System.out.println(nomes);
+	}
+}

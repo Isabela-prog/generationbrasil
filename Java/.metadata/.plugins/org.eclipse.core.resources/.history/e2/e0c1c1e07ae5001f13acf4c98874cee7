@@ -1,0 +1,25 @@
+package exerciciosVetoresEMatrizes;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		// declarar variáveis
+		int notas[][] = new int[4][10];
+		
+		//iniciar scanner
+		Scanner scanner = new Scanner(System.in);
+		
+		//percorrer matriz para que o professor entre com as notas
+		for(int l = 0; l < 10; l++) {
+			for(int c = 0; c < 4; c++) {
+				System.out.println("Entre com a nota " + c+1 + " do aluno " + l+1 + " :");
+				//perguntar e armazenar nota do aluno
+				notas[l][c] = scanner.nextInt();		
+			}
+			
+		}
+	}
+
+}

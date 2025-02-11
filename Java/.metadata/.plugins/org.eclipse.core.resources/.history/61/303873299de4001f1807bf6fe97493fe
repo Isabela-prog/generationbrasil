@@ -1,0 +1,15 @@
+package exerciciosVetoresEMatrizes;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		int matriz[][]= {{1,2,3},{4,5,6},{7,8,9}};
+		
+		for(int l = 0; l < 3; l++) {
+			//System.out.println(l + "-" + l);
+			System.out.println(matriz[l][l]);
+		}
+
+	}
+
+}

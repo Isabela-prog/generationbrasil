@@ -1,0 +1,59 @@
+package exercicioEstruturaDeDados;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class Exercicio1 {
+	public static void main(String[] args) {
+		// declarar variáveis
+		int opcao;
+		String nomes;
+		boolean continuar = true;
+		Queue<String> fila = new LinkedList<String>();
+		
+		// incializar scanner
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		// fazer menu
+		System.out.println("****************************");
+		System.out.println("1 - Adicionar cliente a fila");
+		System.out.println("2 - Listar todos os clientes");
+		System.out.println("3 - Retirar cliente da fila");
+		System.out.println("0 - Sair");
+		System.out.println("****************************");
+		
+		opcao = scanner.nextInt();
+		
+		fila.add("Isabela");
+		fila.add("Vitória");
+		fila.add("Jéssica");
+		//while senteça true -> continuar
+		while(continuar == true) {
+			if(fila.isEmpty() == true && (opcao == 2 || opcao == 3)) {
+				System.out.println("A fila está vazia, digite outra opção: ");
+				opcao = scanner.nextInt();
+				scanner.nextLine();
+			}else if(opcao == 1){
+				System.out.println("Entre com o nome: ");
+				nomes = scanner.nextLine();
+				fila.add(nomes);
+				scanner.nextLine();
+			}else if(opcao == 2) {
+				for( String nome: fila) {
+					System.out.println("Na fila temos: ");
+					System.out.println(nome);
+				}		
+			}else if(opcao == 3) {
+				//mostrar quem vai ser chamado
+				System.out.println(fila.element());
+			}else if(opcao == 0) {
+				continuar = false;
+			}else {
+				System.out.println("Entre com um número válido");
+				opcao = scanner.nextInt();
+				scanner.nextLine();
+			}}	
+	}
+}

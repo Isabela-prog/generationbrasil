@@ -1,0 +1,22 @@
+package colecoesDeDadosListas;
+
+import java.util.ArrayList;
+
+public class Listas3 {
+	public static void main(String[] args) {
+		// saída usando for
+		
+		ArrayList<String> nomes = new ArrayList<String>();
+		nomes.add("Jessica");
+		nomes.add("Mina");
+		nomes.add("Mayte");
+		nomes.add("Gaby");
+		nomes.add("Isa");
+		
+		//foreach
+		//pegando a lista de nomes e jogando dentro de n
+		for(String n: nomes) {
+			System.out.println(n);
+		}
+	}
+}

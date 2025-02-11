@@ -1,0 +1,14 @@
+package exercicioEstruturaDeDados;
+
+public class Exercicio1 {
+	public static void main(String[] args) {
+		
+		System.out.println("****************************");
+		System.out.println("1 - Adicionar cliente a fila");
+		System.out.println("2 - Listar todos os clientes");
+		System.out.println("3 - Retirar cliente da fila");
+		System.out.println("0 - Sair");
+		System.out.println("****************************");
+		
+	}
+}

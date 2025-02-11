@@ -1,0 +1,19 @@
+package matrizes;
+
+public class MatrizesSimples {
+	public static void main(String[] args) {
+		int matriz[][] = {
+				{15,20},
+				{70,80},
+				};
+		
+		/*
+		 * indice	00 01
+		 * 			15 20
+		 * indice	10 11
+		 * 			70 80
+		 */
+		
+		System.out.println(matriz[1][1]);
+	}
+}

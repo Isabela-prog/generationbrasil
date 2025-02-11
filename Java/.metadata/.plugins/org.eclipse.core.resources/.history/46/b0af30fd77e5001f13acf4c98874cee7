@@ -1,0 +1,44 @@
+package exerciciosVetoresEMatrizes;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+	public static void main(String[] args) {
+		// declarando variáveis
+		int n[] = new int[10];
+		int sum = 0;
+		int sumPar = 0;
+		int sumImpar = 0;
+		
+		// inicializando scanner
+		Scanner scanner = new Scanner(System.in);
+		
+		// pedindo e armazenando valor do usuário dentro do for
+		//fazer a soma para a media
+		for(int i = 0; i < 10; i++) {
+			System.out.println("Entre com um número: ");
+			//colocar o npumero digitado sempre no indice indicado por i
+			n[i] = scanner.nextInt();
+			sum += n[i];		
+		}
+		
+		System.out.println("Os números pares são:");
+		//trabalhar números pares do vetor
+		//o icremento do i será dois, pois ele tera que andar de duas em duas casas, pulando o ímpar
+		for(int i =0; i < 10; i+=2) {
+			System.out.println(n[i] + " ");
+			sumPar += n[i];
+		}
+		System.out.println("Soma dos números pares:/n" + sumPar);
+		
+		System.out.println("Os número ímpares são: ");
+		//trabalhar os elementos ímpares
+		//começar por 1, pois zero é par
+		for(int i =1; i < 10; i+=2) {
+			System.out.println(n[i] + " ");
+			sumImpar += n[i];
+		}
+		System.out.println("Soma dos números ímpares:/n" + sumImpar);
+	}
+
+}

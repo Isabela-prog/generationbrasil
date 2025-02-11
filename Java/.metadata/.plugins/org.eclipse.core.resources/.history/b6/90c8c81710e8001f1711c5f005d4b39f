@@ -1,0 +1,22 @@
+package exercicioEstruturaDeDados;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class Exercicio2 {
+	public static void main(String[] args) {
+		boolean continuar = true;
+		Stack<String> pilha = new Stack<String>();
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		while(continuar == true) {
+			System.out.println("****************************");
+			System.out.println("1 - Adicionar libro na pilha");
+			System.out.println("2 - Listar todos os livros");
+			System.out.println("3 - Retirar liro da pilha");
+			System.out.println("0 - Sair");
+			System.out.println("****************************");
+		}
+	}
+}

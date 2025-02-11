@@ -1,0 +1,17 @@
+package vetores;
+
+public class VetoresSimples {
+
+	public static void main(String[] args) {
+		//formas de declarar vetores
+		
+		int numeros[] = {8,9,10,11};
+		
+		float medidas[] = new float[5];
+		
+		System.out.println(numeros[1]);
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package exerciciosVetoresEMatrizes;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+	public static void main(String[] args) {
+		// declarando variáveis
+		int n[] = new int[10];
+		
+		// inicializando scanner
+		Scanner scanner = new Scanner(System.in);
+		
+		// pedindo e armazenando valor do usuário dentro do for
+		for(int i = 0; i < 10; i++) {
+			System.out.println("Entre com um número: ");
+			n[i] = scanner.nextInt();
+			System.out.println(n[i]);
+			}
+		System.out.println(n);
+	}
+
+}
