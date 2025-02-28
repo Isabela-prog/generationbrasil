@@ -21,3 +21,8 @@ INSERT INTO tb_colaboradores (nome, cpf, salario, email) values
 SELECT * FROM tb_colaboradores WHERE salario > 2000.0;
 
 SELECT * FROM tb_colaboradores WHERE salario < 2000.0;
+
+UPDATE tb_colaboradores SET salario = 3000.0 WHERE id = 3;
+
+DROP DATABASE db_rh;
+DROP DATABASE db_rh_empresa;
